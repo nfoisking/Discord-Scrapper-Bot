@@ -1,0 +1,24 @@
+datasource db {
+  provider = "mongodb"
+  url = env("DB_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Users { 
+    id String @id @map("_id")
+    plan String? @default("None")
+    plan_exp Int? @default(0)
+    guild_id String?
+    channel_id String?
+    token String?
+}
+
+model Keys {
+    id String @id @map("_id")
+    used Boolean @default(false)
+    type String? @default("Unknown")
+    exp Int? @default(0)
+}
