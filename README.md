@@ -20,7 +20,7 @@
 </i>
 
 <h1>About Scrapper V1</h1>
-<p><li>Author: nfo</li></p>
+<p><li>Author: nfo/luis</li></p>
 <p><li>Version: 1.0</li></p>
 <p><li>Language: TypeScript</li></p>
 <h1>Contact</h1>
